@@ -2,7 +2,7 @@ import User from '../models/userModel.js'
 import generateToken from '../utils/generateToken.js';
 import Trycatch from '../utils/Trycatc.js';
 import getDataUrl from '../utils/urlGenerator.js';
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import cloudinary  from 'cloudinary'
 export const registeruser=async(req ,res)=>{
     try{
